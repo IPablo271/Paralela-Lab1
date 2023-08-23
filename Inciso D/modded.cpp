@@ -3,8 +3,8 @@
 
 int main()
 {
-    int thread_count = 1; // Número de hilos a utilizar
-    int n = 1000000;      // Número de términos en la serie
+    int thread_count = 6; // Número de hilos a utilizar
+    int n = 10000000000;  // Número de términos en la serie
 
     double sum = 0.0;
 

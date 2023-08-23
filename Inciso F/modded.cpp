@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[])
 {
-    int thread_count = 2000; // Número de hilos por defecto
+    int thread_count = 2; // Número de hilos por defecto
 
     if (argc > 1)
     {
@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
         printf("Número de hilos no especificado. Usando valor por defecto: 2000.\n");
     }
 
-    int n = 1000000000; // Número de términos en la serie
+    int n = 10000000000; // Número de términos en la serie
 
     long double sum = 0.0;
     long double factor;
